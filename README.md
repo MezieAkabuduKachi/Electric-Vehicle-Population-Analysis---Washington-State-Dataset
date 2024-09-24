@@ -39,7 +39,7 @@ The dataset required substantial cleaning and preparation before being used for 
 6. **Handling Outliers**: 
 7. **City and County Consistency Check**: 
 8. **Final DataFrame**:
-9. 
+   
 ## SQL-Based Exploratory Data Analysis (EDA)
 
 In this section, I used MySQL to explore the dataset through queries that reveal key insights into the electric vehicle population in Washington state. Some of the questions addressed in the analysis include:
