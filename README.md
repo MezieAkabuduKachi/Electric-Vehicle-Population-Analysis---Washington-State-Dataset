@@ -1,9 +1,12 @@
-# Electric-Vehicle-Population-Analysis---Washington-State-Dataset
+Here's your updated README with the inclusion of the Python data cleaning process:
 
+---
+
+# Electric Vehicle Population Analysis — Washington State Dataset
 
 ## Overview
 
-This project analyzes the Electric Vehicle (EV) population data registered through the Washington State Department of Licensing (DOL). The dataset includes key information about electric vehicles such as their make, model, range, and legislative district. The project demonstrates the data cleaning process, exploratory data analysis (EDA) using SQL, and data visualization with Power BI.
+This project analyzes the Electric Vehicle (EV) population data registered through the Washington State Department of Licensing (DOL). The dataset includes key information about electric vehicles such as their make, model, range, and legislative district. The project demonstrates data cleaning using Python, exploratory data analysis (EDA) using SQL, and data visualization with Power BI.
 
 ## Dataset Description
 
@@ -24,14 +27,19 @@ The dataset includes the following columns:
 - **DOL_Vehicle_ID**: The unique vehicle ID assigned by the Department of Licensing.
 - **Electric_Utility**: The electric utility provider serving the vehicle's registered address.
 
-## Data Cleaning Process
+## Data Cleaning Process (Python)
 
-1. **Removed irrelevant columns**: Only selected columns necessary for the analysis were retained.
-2. **Handled missing data**: Rows with missing or null values were checked and either filled with appropriate default values or removed.
-3. **Standardized column names**: Converted column names to a consistent format (snake_case).
-4. **Corrected data types**: Ensured that numerical columns like `Base_MSRP` and `Electric_Range` are properly cast to numeric types.
-5. **Resolved duplicates**: Duplicate records were identified and removed based on the `VIN_1_10` column.
+The dataset required substantial cleaning and preparation before being used for analysis. The Python data cleaning process is outlined below:
 
+1. **Loading the dataset**: 
+2. **Handling Missing Data**: 
+3. **Removing Duplicates**: 
+4. **Standardizing Text Fields**: 
+5. **Correcting Data Types**: 
+6. **Handling Outliers**: 
+7. **City and County Consistency Check**: 
+8. **Final DataFrame**:
+9. 
 ## SQL-Based Exploratory Data Analysis (EDA)
 
 In this section, I used MySQL to explore the dataset through queries that reveal key insights into the electric vehicle population in Washington state. Some of the questions addressed in the analysis include:
@@ -56,20 +64,20 @@ In this section, I used MySQL to explore the dataset through queries that reveal
 18. Which vehicles have the same `Make` and `Model`, but differ in `Electric_Range` or `Base_MSRP`?
 19. How many unique `VIN_1_10` entries are there in the dataset?
 
-
-
 ## Tools Used
 
-- **Excel**: Data cleaning and preparation.
+- **Python**: Data cleaning and preparation.
+- **Excel**: Initial data exploration and validation.
 - **MySQL**: SQL-based exploratory data analysis.
 
 ## Conclusion
 
-This project provides insights into the electric vehicle population registered in Washington state, showing trends in vehicle types, manufacturers, electric ranges, and regional distribution. 
+This project provides insights into the electric vehicle population registered in Washington state, showing trends in vehicle types, manufacturers, electric ranges, and regional distribution. The Python data cleaning process ensures a clean and usable dataset, while the SQL-based EDA uncovers important patterns within the data.
 
 ## Repository Contents
 
-- `Electric_Vehicle_Population_Data.csv`: Cleaned dataset used for analysis.
+- `Electric_Vehicle_Population_Data.csv`: The raw dataset used for analysis.
+- `Cleaned_Electric_Vehicle_Population_Data.csv`: The cleaned dataset after applying Python-based data cleaning.
 - `SQL_Queries.sql`: All SQL queries used for exploratory data analysis.
 - `README.md`: This readme file, outlining the project.
 
