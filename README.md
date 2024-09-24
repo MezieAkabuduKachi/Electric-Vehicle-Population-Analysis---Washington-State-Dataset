@@ -1,7 +1,3 @@
-Here's your updated README with the inclusion of the Python data cleaning process:
-
----
-
 # Electric Vehicle Population Analysis — Washington State Dataset
 
 ## Overview
